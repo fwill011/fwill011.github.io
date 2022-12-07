@@ -1,0 +1,63 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #fff;
+  background-color: #141414;
+  height: 10000px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  margin: 40px 30px 0px 0px;
+  display: inline-block;
+  border: 2px solid #8f3df2;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-2 {
+  margin: 40px 30px 0px 0px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #8f3df2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}
