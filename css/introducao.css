@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.introducao span {
+.introducao strong {
   color: #8f3df2;
   font-size: 1.25rem;
 }
@@ -44,23 +44,31 @@
     grid-template-columns: 1fr;
   }
 
-  .introducao h1 {
-    text-align: center;
-  }
-
-  .introducao p {
-    text-align: center;
-  }
-
-  .introducao p {
-    text-align: center;
-  }
-
   .introducao img {
     margin: 0 auto;
   }
 
-  .introducao a {
-    margin-left: 40px;
+  .introducao strong {
+    display: block;
+    text-align: center;
+  }
+
+  .introducao h1 {
+    margin: 10px 0px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .introducao p {
+    text-align: center;
+  }
+  .btn-responsive {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao h1 {
+    font-size: 2rem;
   }
 }
