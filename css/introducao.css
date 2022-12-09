@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.introducao strong {
+.introducao span {
   color: #8f3df2;
   font-size: 1.25rem;
 }
@@ -39,12 +39,28 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 635px) {
   .introducao {
     grid-template-columns: 1fr;
   }
 
+  .introducao h1 {
+    text-align: center;
+  }
+
+  .introducao p {
+    text-align: center;
+  }
+
+  .introducao p {
+    text-align: center;
+  }
+
   .introducao img {
-    display: none;
+    margin: 0 auto;
+  }
+
+  .introducao a {
+    margin-left: 40px;
   }
 }

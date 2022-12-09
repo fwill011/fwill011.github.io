@@ -24,6 +24,14 @@ img {
   display: block;
 }
 
+/* .container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+} */
+
 .btn {
   margin: 40px 30px 0px 0px;
   display: inline-block;
