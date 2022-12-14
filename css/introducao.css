@@ -23,6 +23,8 @@
   color: #a3a3a3;
 }
 
+/* RESPONSIVO */
+
 @media (max-width: 1000px) {
   .introducao {
     gap: 40px;
